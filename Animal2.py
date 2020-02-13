@@ -13,5 +13,5 @@ class Animal:
 dog = Animal("Rax","Dog")
 cat =Animal("Stormy","cat")
 
-dog.food()
+dog.food() #Comment these two functions in Animal class so that the function in dog.py executes the specified output.
 dog.sound()
