@@ -11,6 +11,9 @@ class Home:
             if each == pet:
                 raise Exception ("cant adopt the same pet twice")
         self.pets.append(pet)
+    
+    def make_all_sounds(self):
+        return dog_1.food()
 
         
 
