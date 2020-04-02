@@ -5,10 +5,10 @@ class Dog(Animal):
         super().__init__(name,sounds)
 
     def food(self):
-        print(self.name + " eats")  
+        return(self.name + " eats")  
 
     def sound(self):
-        print(self.sounds,"barks")
+        return(self.sounds,"barks")
 
 dog_1 = Dog("Rax","Dog")
 dog_1.food()
