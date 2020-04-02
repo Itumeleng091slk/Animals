@@ -8,7 +8,7 @@ class Cat(Animal):
         print(self.name + " eats")  
 
    def sound(self):
-        print(self.sounds,"meows")
+        return(self.sounds,"meows")
 
 cat_1 = Cat("Stormy","Cat")
 cat_1.food()
