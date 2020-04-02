@@ -5,10 +5,10 @@ class Animal:
         
 
     def food(self):
-        print("{0} eats".format(self.name))
+        return("{0} eats".format(self.name))
 
     def sound(self):
-        print("{0} barks".format(self.sounds))
+        return("{0} barks".format(self.sounds))
         
 dog = Animal("Rax","Dog")
 cat =Animal("Stormy","cat")
